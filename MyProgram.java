@@ -4,8 +4,8 @@ class Rectangle {
     float height;
     float width;
 
-    void calArea() {
-        System.out.println("Area=" + (height * width));
+    float calArea() {
+        return height * width;
     }
 }
 
@@ -20,7 +20,9 @@ class MyProgram {
         System.out.print("enter width:");
         r1.width = sc.nextFloat();
 
-        r1.calArea();
+        float area = r1.calArea();
+        System.out.println("Area=" + area);
     }
 }
+
 
