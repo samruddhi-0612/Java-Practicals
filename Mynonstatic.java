@@ -1,17 +1,14 @@
-public class Mynonstatic {
+public class Mystatic {
 
     public static void main(String[] args) {
         int a = 1, b = 2, c;
 
-        Mynonstatic mp = new Mynonstatic(); // object creation
-        c = mp.add(a, b);
-
+        c = add(a, b); // static method call
         System.out.println(c);
     }
 
-    public int add(int i, int j) {
+    static int add(int i, int j) {
         return i + j;
     }
 }
-
 
