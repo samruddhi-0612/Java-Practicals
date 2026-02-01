@@ -1,16 +1,16 @@
 class Cube {
     double width, height, depth;
 
-    Cube() {
-        System.out.println("Constructing cube");
-        width = 10;
-        height = 10;
-        depth = 10;
+    Cube(double w, double h, double d) {
+        width = w;
+        height = h;
+        depth = d;
     }
 }
 
 class MyMain {
     public static void main(String[] args) {
-        Cube c = new Cube();
+        Cube c = new Cube(10, 10, 10);
     }
 }
+
