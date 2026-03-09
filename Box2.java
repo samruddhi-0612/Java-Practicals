@@ -18,9 +18,11 @@ class BoxDemo2{
         mybox2.depth = 60;
 
         vol = mybox1.depth * mybox1.height * mybox1.width;
+        System.out.println("Volume is = " +vol);
+        
         vol = mybox2.depth * mybox2.height * mybox2.width;
-
         System.out.println("Volume is = " +vol);
 
     }
+
 }
